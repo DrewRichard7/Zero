@@ -1,0 +1,2 @@
+ALTER TABLE "mail0_user_settings" ALTER COLUMN "settings" SET DEFAULT '{"language":"en","timezone":"UTC","dynamicContent":false,"externalImages":true,"customPrompt":""}'::jsonb;--> statement-breakpoint
+ALTER TABLE "mail0_user" ADD COLUMN "custom_prompt" text;
